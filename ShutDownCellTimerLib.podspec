@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShutDownCellTimerLib'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频'
   s.description      = <<-DESC
 TODO: 关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频
@@ -16,10 +16,10 @@ TODO: 关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里�
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ShutDownCellTimerLib/Classes/ShutDownCellTimerLib/*'
+  s.source_files = 'ShutDownCellTimerLib/Classes/ShuDown/*'
  
 
-  # s.public_header_files = 'Pod/Classes/ShutDownCellTimerLib/*.h'
+  # s.public_header_files = 'Pod/Classes/ShuDown/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'ReactiveObjC', '~> 3.1.0'
 end
