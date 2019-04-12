@@ -1,0 +1,6 @@
+framework module Pods_ShutDownCellTimerLib_Tests {
+  umbrella header "Pods-ShutDownCellTimerLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

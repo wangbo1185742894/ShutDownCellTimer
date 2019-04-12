@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ShutDownCellTimerLib_Example' do
+  pod 'ShutDownCellTimerLib', :path => '../'
+
+  target 'ShutDownCellTimerLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module ShutDownCellTimerLib {
+  umbrella header "ShutDownCellTimerLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

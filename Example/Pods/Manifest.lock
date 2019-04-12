@@ -1,0 +1,16 @@
+PODS:
+  - ShutDownCellTimerLib (0.1.0)
+
+DEPENDENCIES:
+  - ShutDownCellTimerLib (from `../`)
+
+EXTERNAL SOURCES:
+  ShutDownCellTimerLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShutDownCellTimerLib: 8808570aba3f47559a203d225847832845075fe3
+
+PODFILE CHECKSUM: 1898d2c13d45915f6336bc113506b1cdf43a62ec
+
+COCOAPODS: 1.6.1
