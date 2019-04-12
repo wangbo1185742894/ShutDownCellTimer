@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShutDownCellTimerLib'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频'
   s.description      = <<-DESC
 TODO: 关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频
