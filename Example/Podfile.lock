@@ -1,6 +1,6 @@
 PODS:
   - ReactiveObjC (3.1.0)
-  - ShutDownCellTimerLib (1.0.2):
+  - ShutDownCellTimerLib (1.0.4):
     - ReactiveObjC (~> 3.1.0)
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  ShutDownCellTimerLib: 1287e32a15d1f4d52d7c5689694dd56c7e1d5eb8
+  ShutDownCellTimerLib: d76b7f180a87ff5ee5299931b4c812def3d6b88a
 
-PODFILE CHECKSUM: 1898d2c13d45915f6336bc113506b1cdf43a62ec
+PODFILE CHECKSUM: ee4f78289f6f1631dc1f9fb14cbbedb806ce8aca
 
 COCOAPODS: 1.6.1

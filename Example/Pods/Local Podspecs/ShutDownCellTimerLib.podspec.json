@@ -1,6 +1,6 @@
 {
   "name": "ShutDownCellTimerLib",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "summary": "关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频",
   "description": "TODO: 关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频",
   "homepage": "https://github.com/wangbo1185742894/ShutDownCellTimer",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wangbo1185742894/ShutDownCellTimer.git",
-    "tag": "1.0.2"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "9.0"
