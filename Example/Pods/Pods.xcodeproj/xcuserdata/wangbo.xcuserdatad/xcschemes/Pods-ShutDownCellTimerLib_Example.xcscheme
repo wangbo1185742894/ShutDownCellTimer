@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6CF4358C58B3DEA2B5F5DA34D566531"
+               BlueprintIdentifier = "399AD1670348E45DCB948B51DF777261"
                BuildableName = "Pods_ShutDownCellTimerLib_Example.framework"
                BlueprintName = "Pods-ShutDownCellTimerLib_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D6CF4358C58B3DEA2B5F5DA34D566531"
+            BlueprintIdentifier = "399AD1670348E45DCB948B51DF777261"
             BuildableName = "Pods_ShutDownCellTimerLib_Example.framework"
             BlueprintName = "Pods-ShutDownCellTimerLib_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

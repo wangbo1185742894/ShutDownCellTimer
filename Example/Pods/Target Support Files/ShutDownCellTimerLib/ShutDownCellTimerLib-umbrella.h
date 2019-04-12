@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "UICollectionViewCell+ShutDownTimer.h"
+#import "UITableViewCell+ShutDownTimer.h"
+#import "UIView+GetVC.h"
 
 FOUNDATION_EXPORT double ShutDownCellTimerLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char ShutDownCellTimerLibVersionString[];

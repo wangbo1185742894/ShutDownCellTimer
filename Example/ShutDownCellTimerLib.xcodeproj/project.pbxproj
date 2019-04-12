@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AF15F5B1142BC992424660A /* ShutDownCellTimerLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ShutDownCellTimerLib.podspec; path = ../ShutDownCellTimerLib.podspec; sourceTree = "<group>"; };
+		0AF15F5B1142BC992424660A /* ShutDownCellTimerLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShutDownCellTimerLib.podspec; path = ../ShutDownCellTimerLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2BCC4DBF2B4022C8D4B64D49 /* Pods-ShutDownCellTimerLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShutDownCellTimerLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ShutDownCellTimerLib_Example/Pods-ShutDownCellTimerLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3FC30161EFB5F566F2BC455F /* Pods_ShutDownCellTimerLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShutDownCellTimerLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42B9E218D1A70550E5703201 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		42B9E218D1A70550E5703201 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ShutDownCellTimerLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutDownCellTimerLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8693FBAD0FA3FB3A67F84843 /* Pods-ShutDownCellTimerLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShutDownCellTimerLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ShutDownCellTimerLib_Tests/Pods-ShutDownCellTimerLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F9DA456B7632898A7106601 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F9DA456B7632898A7106601 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8D929DFCBD03970C70D439B /* Pods-ShutDownCellTimerLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShutDownCellTimerLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ShutDownCellTimerLib_Tests/Pods-ShutDownCellTimerLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD810F13682C1A7B352BCB05 /* Pods_ShutDownCellTimerLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShutDownCellTimerLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2098F50B60977C96750175 /* Pods-ShutDownCellTimerLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShutDownCellTimerLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ShutDownCellTimerLib_Example/Pods-ShutDownCellTimerLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				A8D929DFCBD03970C70D439B /* Pods-ShutDownCellTimerLib_Tests.debug.xcconfig */,
 				8693FBAD0FA3FB3A67F84843 /* Pods-ShutDownCellTimerLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -326,13 +326,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ShutDownCellTimerLib_Example/Pods-ShutDownCellTimerLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ShutDownCellTimerLib/ShutDownCellTimerLib.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShutDownCellTimerLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

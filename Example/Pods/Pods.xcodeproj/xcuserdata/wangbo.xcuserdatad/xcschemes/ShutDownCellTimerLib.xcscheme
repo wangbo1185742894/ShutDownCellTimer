@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C31246DCC298C937F981BDD29AF36091"
+               BlueprintIdentifier = "ABC5BAAC4C5D2A65D5C036430DAADC8A"
                BuildableName = "ShutDownCellTimerLib.framework"
                BlueprintName = "ShutDownCellTimerLib"
                ReferencedContainer = "container:Pods.xcodeproj">

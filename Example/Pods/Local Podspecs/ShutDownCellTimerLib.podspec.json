@@ -1,9 +1,9 @@
 {
   "name": "ShutDownCellTimerLib",
-  "version": "0.1.0",
-  "summary": "A short description of ShutDownCellTimerLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wangbo1185742894/ShutDownCellTimerLib",
+  "version": "1.0.2",
+  "summary": "关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频",
+  "description": "TODO: 关闭tableViewCell和collectionViewCell 中的定时器 或者关闭里面的正在播放的视频",
+  "homepage": "https://github.com/wangbo1185742894/ShutDownCellTimer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "wangbo1185742894": "wangbo3919@163.com"
   },
   "source": {
-    "git": "https://github.com/wangbo1185742894/ShutDownCellTimerLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/wangbo1185742894/ShutDownCellTimer.git",
+    "tag": "1.0.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ShutDownCellTimerLib/Classes/**/*"
+  "source_files": "ShutDownCellTimerLib/Classes/ShuDown/*",
+  "dependencies": {
+    "ReactiveObjC": [
+      "~> 3.1.0"
+    ]
+  },
+  "static_framework": true
 }
