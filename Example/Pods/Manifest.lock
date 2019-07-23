@@ -1,23 +1,20 @@
 PODS:
   - ReactiveObjC (3.1.0)
-  - ShutDownCellTimerLib (1.0.7):
+  - ShutDownCellTimerLib (1.0.8):
     - ReactiveObjC
 
 DEPENDENCIES:
-  - ShutDownCellTimerLib (from `../`)
+  - ShutDownCellTimerLib
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ReactiveObjC
-
-EXTERNAL SOURCES:
-  ShutDownCellTimerLib:
-    :path: "../"
+    - ShutDownCellTimerLib
 
 SPEC CHECKSUMS:
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  ShutDownCellTimerLib: e411b1d445b965100f72cf1b7ae028e87841fd25
+  ShutDownCellTimerLib: cce02608eda4c35765af86f90d3039aaf8ad2aca
 
-PODFILE CHECKSUM: ee4f78289f6f1631dc1f9fb14cbbedb806ce8aca
+PODFILE CHECKSUM: 9ad79b39bbd4240b999c687101649740f736e110
 
 COCOAPODS: 1.6.1
